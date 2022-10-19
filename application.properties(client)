@@ -1,0 +1,7 @@
+#client configuration
+#application name
+spring.application.name=pagamentos-ms
+#server address
+eureka.client.serviceUrl.defaultZone=http://localhost:8081/eureka
+#let server decide application port
+server.port=0
